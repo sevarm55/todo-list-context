@@ -1,10 +1,10 @@
 import axios from "axios";
 import { useContext } from "react";
-import { userContext } from "../../context";
+import { todoContext } from "../context";
 
 const ToDoItem = ({todo,index}) => {
 
-    const {onDelete,onUpdateStatus} = useContext(userContext)
+    const {onDelete,onUpdateStatus} = useContext(todoContext)
     
     return (
         <div className={`todoItem ${todo.status === "completed" ? 'done' : ''}`}>

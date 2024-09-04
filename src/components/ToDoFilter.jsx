@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import { userContext } from '../../context'
+import { todoContext } from '../context'
 
 const ToDoFilter = () => {
-	const { currentFilter, setCurrentFilter } = useContext(userContext)
+	const { currentFilter, setCurrentFilter } = useContext(todoContext)
 	const filterLists = ['all', 'completed', 'active']
 
 	console.log(currentFilter)

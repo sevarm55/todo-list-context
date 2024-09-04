@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { userContext } from "../../context";
+import { todoContext } from "../context";
 import ToDoItem from "./ToDoItem";
 
 const List = () => {
-    const {todos,currentFilter} = useContext(userContext)
+    const {todos,currentFilter} = useContext(todoContext)
 
     let filtered = todos
     if(currentFilter === "active") {

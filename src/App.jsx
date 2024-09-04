@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { userContext } from '../context'
+import { todoContext } from './context';
 
 import './App.css'
 import ToDoList from './components/ToDoList'
@@ -47,7 +47,7 @@ function App() {
   
   
   return (
-    <userContext.Provider value={{
+    <todoContext.Provider value={{
       todos,
       text,
       setText,
@@ -60,7 +60,7 @@ function App() {
       setCurrentFilter
     }}>
     <ToDoList />
-    </userContext.Provider>
+    </todoContext.Provider>
   )
 }
 

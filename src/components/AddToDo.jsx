@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { userContext } from "../../context";
+import { todoContext } from "../context";
 import axios from "axios";
 
 const AddToDo = () => {
 
-    const {text,setText,error,setError,addTodo} = useContext(userContext)
+    const {text,setText,error,setError,addTodo} = useContext(todoContext)
 
     const handlerSubmit = e => {
         e.preventDefault()
