@@ -1,0 +1,143 @@
+.todolist {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 30px 30px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_block {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.error::placeholder {
+ color: red;
+}
+
+.form_block input {
+  width: 100%;
+  border: none;
+  padding: 10px 10px;
+  outline: none; 
+  font-size: 18px;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+}
+
+.form_block button {
+  border: none;
+  /* padding: 0 90px; */
+  width: 100px;
+  cursor: pointer;
+  background: rgb(174, 227, 174);
+  color: rgb(56, 51, 51);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.form_block button:hover {
+  background: rgb(100, 223, 100);
+}
+
+.list {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.todoItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  align-items: center;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+  padding: 7px 0;
+  margin: 0;
+}
+
+.todoItem:hover {
+  background-color: rgba(128, 128, 128, 0.083);
+}
+
+.todoItem:hover select {
+  background: none;
+}
+
+.select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.todoItem.done p {
+  text-decoration: line-through;
+  opacity: 0.1;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.items button:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+}
+
+.actions button {
+  background: lightcoral;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.actions button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.error {
+  color: red;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+img {
+  width: 15px;
+}
+
+.todo-filter {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.todo-filter button {
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.active {
+  background-color: red;
+}

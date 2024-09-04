@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": "101",
+      "text": "Buy groceries",
+      "status": "in progress"
+    },
+    {
+      "id": "102",
+      "text": "Complete JavaScript homework",
+      "status": "in progress"
+    },
+    {
+      "id": "103",
+      "text": "Read a book",
+      "status": "completed"
+    },
+    {
+      "id": "104",
+      "text": "Go for a walk",
+      "status": "in progress"
+    },
+    {
+      "id": "105",
+      "text": "Call mom",
+      "status": "in progress"
+    },
+    {
+      "id": "106",
+      "text": "Go to a restaurant for dinner",
+      "status": "in progress"
+    }
+  ]
+}
