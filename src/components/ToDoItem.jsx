@@ -9,7 +9,7 @@ const ToDoItem = ({todo,index}) => {
     return (
         <div className={`todoItem ${todo.status === "completed" ? 'done' : ''}`}>
 			<div className="items">
-                {/* <span>{index + 1} .</span> */}
+                <span>{index + 1} .</span>
                 {
                     todo.status === 'in progress'
                     ? <img src="https://cdn2.iconfinder.com/data/icons/time-date-management-1/64/time__data_management-12-512.png" />

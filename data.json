@@ -3,7 +3,7 @@
     {
       "id": "101",
       "text": "Buy groceries",
-      "status": "in progress"
+      "status": "completed"
     },
     {
       "id": "102",
@@ -13,7 +13,7 @@
     {
       "id": "103",
       "text": "Read a book",
-      "status": "completed"
+      "status": "in progress"
     },
     {
       "id": "104",
